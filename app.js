@@ -24,14 +24,14 @@ app.get('/', function(req,res){
 // CONSIGNA 2
 // Ruta /heroes
 // Consigna: enviar todo el array
-app.get('/heroes', (res,req) => {
+app.get('/heroes', (req,res) => {
   res.send(heroes);
 });
 
 // CONSIGNA 3
 // Aqui creas la ruta para devolver la pagina de los creditos
 // Podes resolverlo en base a los ejemplos anteriores.
-app.get('/creditos', (res,req) => {
+app.get('/creditos', (req,res) => {
   res.send({
     nombre: 'Analía Vargas',
     frase: '<Lo que es para tí, ni aunque te quites. Lo que no, ni aunque te pongas...>'
