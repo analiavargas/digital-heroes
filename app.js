@@ -18,9 +18,7 @@ app.listen(PORT, () => console.log(`Server running in ${PORT} port`));
 // CONSIGNA 1
 // Ruta Raíz / Home
 app.get('/', function(req,res){
-  res.get('/',(req,res)=>{
-    res.send('Ni Superman, Iron Man o La Mujer Maravilla son tan importantes cómo las y los Héroes de carne y hueso que encontrarás en este sitio. Esperamos que ellas y ellos te sirvan como inspiración para poder cumplir tus objetivos. Recuerda: ¡nunca pares de creer en ti!.')
-  });
+    res.send('Ni Superman, Iron Man o La Mujer Maravilla son tan importantes cómo las y los Héroes de carne y hueso que encontrarás en este sitio. Esperamos que ellas y ellos te sirvan como inspiración para poder cumplir tus objetivos. Recuerda: ¡nunca pares de creer en ti!.');
 });
 
 // CONSIGNA 2
